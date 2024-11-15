@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Why Do We Use the  &lt;br&gt; Element?",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Add a Break Line",
+        "answer_4": "To Change Color of Text",
+        "right_answer": "To Add a Break Line"
+    },
+    {
+        "title": "What is the Purpose of the &lt;strong&gt; Element?",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Underline Text",
+        "answer_3": "To Italicize Text",
+        "answer_4": "To Change Font Size",
+        "right_answer": "To Make Text Bold"
+    },
+    {
+        "title": "Which Element is Used for Italic Text?",
+        "answer_1": " &lt;i&gt;",
+        "answer_2": " &lt;u&gt;",
+        "answer_3": " &lt;br&gt;",
+        "answer_4": " &lt;b&gt;",
+        "right_answer": " &lt;i&gt;"
+    },
+    {
+        "title": "How Do You Create an Ordered List?",
+        "answer_1": " &lt;ul&gt;",
+        "answer_2": " &lt;ol&gt;",
+        "answer_3": " &lt;li&gt;",
+        "answer_4": " &lt;list&gt;",
+        "right_answer": " &lt;ol&gt;"
+    },
+    {
+        "title": "What Does the &lt;img&gt;Tag Represent?",
+        "answer_1": "To Insert a Video",
+        "answer_2": "To Insert an Image",
+        "answer_3": "To Create a Link",
+        "answer_4": "To Add a Table",
+        "right_answer": "To Insert an Image"
+    },
+    {
+        "title": "What is the Purpose of the &lt;a&gt; Tag?",
+        "answer_1": "To Create Links",
+        "answer_2": "To Create Buttons",
+        "answer_3": "To Format Text",
+        "answer_4": "To Insert Images",
+        "right_answer": "To Create Links"
+    },
+    {
+        "title": "Which Attribute Specifies the URL in &lt;img&gt;?",
+        "answer_1": "alt",
+        "answer_2": "src",
+        "answer_3": "href",
+        "answer_4": "link",
+        "right_answer": "src"
+    },
+    {
+        "title": "What is the Default Display of &lt;div&gt;?",
+        "answer_1": "Inline",
+        "answer_2": "Inline-Block",
+        "answer_3": "Block",
+        "answer_4": "None",
+        "right_answer": "Block"
+    },
+    {
+        "title": "Which CSS Property is Used to Change Text Color?",
+        "answer_1": "color",
+        "answer_2": "background-color",
+        "answer_3": "font-color",
+        "answer_4": "text-color",
+        "right_answer": "color"
+    },
+    {
+        "title": "What Does the  &lt;title&gt; Tag Do?",
+        "answer_1": "Displays Text on the Page",
+        "answer_2": "Sets the Document Title in the Browser Tab",
+        "answer_3": "Creates a Header",
+        "answer_4": "Adds a Footer",
+        "right_answer": "Sets the Document Title in the Browser Tab"
+    }
+]

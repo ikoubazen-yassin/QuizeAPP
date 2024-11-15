@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --best:#f5b608;
+    --good:#20ec05;
+    --bad:#f51808;
+    --trans:.3s;
+}
+body {
+    background-color: #eee;
+}
+/* Start Answers area */
+.answers-area .answer.active label {
+    color: #0D6EFD;
+}
+.answers-area .answer input:checked ~ label {
+    color: #0D6EFD;
+}
+.answers-area .answer ,
+.answers-area .answer label{
+ transition: var(--trans);
+ cursor: pointer;
+}
+.answers-area .answer:hover {
+    background-color: #ededed;
+}
+/* End Answers area */
+/* Quize app */
+.quiz-app .submit-button {
+    transition: var(--trans);
+}
+.quiz-app .submit-button:hover {
+    opacity: .9;
+}
+.quiz-app .bullets .spans {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+.quiz-app .bullets .spans span.on {
+    background-color: #0D6EFD;
+    opacity: 1;
+}
+.quiz-app .bullets .spans span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #414141;
+    opacity: .4;
+    cursor: pointer;
+}
+.quiz-app .results-final .results {
+    display: flex;
+   justify-content: space-between;
+}
+.quiz-app .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+.quiz-app .overlay  .popup {
+    width: 450px;
+}
